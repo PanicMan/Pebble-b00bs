@@ -1,0 +1,28 @@
+{
+  "name": "b00bs",
+  "author": "PanicMan",
+  "version": "0.1.0",
+  "keywords": [],
+  "private": false,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "b00bs",
+    "uuid": "5b9cb175-4ece-418b-ac33-7f9985a874f8",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
