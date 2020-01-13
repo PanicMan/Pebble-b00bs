@@ -18,9 +18,7 @@
     "watchapp": {
       "watchface": true
     },
-    "messageKeys": [
-      "dummy"
-    ],
+    "messageKeys": [],
     "resources": {
       "media": []
     }
