@@ -10,6 +10,7 @@
     "uuid": "5b9cb175-4ece-418b-ac33-7f9985a874f8",
     "sdkVersion": "3",
     "enableMultiJS": true,
+    "projectType": "native",
     "targetPlatforms": [
       "aplite",
       "basalt",
@@ -20,7 +21,47 @@
     },
     "messageKeys": [],
     "resources": {
-      "media": []
+      "media": [
+          {
+              "file": "images/menuimage.png",
+              "menuIcon": true,
+              "name": "IMAGE_MENU",
+              "targetPlatforms": null,
+              "type": "bitmap"
+          },
+          {
+              "file": "images/Battery.png",
+              "name": "IMAGE_BATTERY",
+              "targetPlatforms": ["basalt"],
+              "type": "bitmap"
+          },
+          {
+              "file": "images/Battery_bw.png",
+              "name": "IMAGE_BATTERY",
+              "targetPlatforms": ["aplite", "diorite"],
+              "type": "bitmap"
+          },
+          {
+              "file": "images/b00bs1.png",
+              "name": "IMAGE_B00BS",
+              "targetPlatforms": ["basalt"],
+              "type": "raw"
+          },
+          {
+              "file": "images/b00bs1_bw.png",
+              "name": "IMAGE_B00BS",
+              "targetPlatforms": ["aplite", "diorite"],
+              "type": "raw"
+          },
+          {
+              "characterRegex": "[-/0-9a-zA-Z. \u00c4\u00c9\u00c1\u00db\u00e4\u00e9\u00e1\u00fb]",
+              "file": "fonts/DIGITALBOLD2.TTF",
+              "name": "FONT_DIGITAL_23",
+              "targetPlatforms": null,
+              "trackingAdjust": -1,
+              "type": "font"
+          }
+      ]
     }
   }
 }
