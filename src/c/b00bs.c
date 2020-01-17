@@ -118,8 +118,8 @@ static void window_load(Window *window)
 	layer_set_frame(bitmap_layer_get_layer(battery_layer), rc);
 
 	layer_add_child(window_layer, bitmap_layer_get_layer(b00bs_layer));
-	layer_add_child(window_layer, bitmap_layer_get_layer(radio_layer));
-	layer_add_child(window_layer, bitmap_layer_get_layer(battery_layer));
+//	layer_add_child(window_layer, bitmap_layer_get_layer(radio_layer));
+//	layer_add_child(window_layer, bitmap_layer_get_layer(battery_layer));
 	
 	b_initialized = true;
 }

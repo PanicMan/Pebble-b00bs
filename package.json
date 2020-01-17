@@ -12,7 +12,6 @@
     "enableMultiJS": true,
     "projectType": "native",
     "targetPlatforms": [
-      "aplite",
       "basalt",
       "diorite"
     ],
@@ -38,19 +37,19 @@
           {
               "file": "images/Battery_bw.png",
               "name": "IMAGE_BATTERY",
-              "targetPlatforms": ["aplite", "diorite"],
+              "targetPlatforms": ["diorite"],
               "type": "bitmap"
           },
           {
-              "file": "images/b00bs1.png",
+              "file": "images/b00bs4.png",
               "name": "IMAGE_B00BS",
               "targetPlatforms": ["basalt"],
               "type": "raw"
           },
           {
-              "file": "images/b00bs1_bw.png",
+              "file": "images/b00bs4_bw.png",
               "name": "IMAGE_B00BS",
-              "targetPlatforms": ["aplite", "diorite"],
+              "targetPlatforms": ["diorite"],
               "type": "raw"
           },
           {
